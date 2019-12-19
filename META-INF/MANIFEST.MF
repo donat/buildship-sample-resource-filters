@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Buildship sample: resource filters
+Bundle-SymbolicName: org.eclipse.buildship.sample.rf;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: org.eclipse.buildship.sample.rf
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.buildship.core;bundle-version="3.0.0",
+ org.eclipse.core.runtime,
+ org.eclipse.jdt.core
+Bundle-Activator: org.eclipse.buildship.sample.rf.Activator
+Bundle-ClassPath: .,
+ custom-model/repo/org/gradle/sample/plugins/toolingapi/model/1.0/model-1.0.jar
+Bundle-ActivationPolicy: lazy
